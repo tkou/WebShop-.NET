@@ -38,3 +38,5 @@ WebShop.Data : is where the data access takes place, the database is exposed in 
 WebShop.Business : is where the Business logic is applied to Entities or other related Business models.
 WebShop.MVC : is where the UI is displayed where business entities or models are transformed to ViewModels via "Service" classes
 and every ViewModel impacts on a View (Strongly Typed View) having as strong type the ViewModel class.
+
+Two ways of adding to cart were implemented, one with page redirection(full postback) and one without redirection(Ajax request). 
